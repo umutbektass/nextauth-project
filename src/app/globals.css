@@ -1,6 +1,9 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -30,4 +33,13 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  background-color: bisque;
+  display: flex;
+  justify-content: space-between;
+  padding: .1rem 1.5rem;
 }
